@@ -30,10 +30,11 @@
  * pass it into the subfunctions of then prints the corresponding results.
  *
  * @param array of unsigned char 
+ * @param lenght of the array as unsigned int
  *
  * @return it return nothing as it is a void funtion
  */
-void print_statistics(unsigned char arr[]);
+void print_statistics(unsigned char arr[],unsigned int length);
 
 /**
  * @brief prints out all the elements of an unsigned char array
